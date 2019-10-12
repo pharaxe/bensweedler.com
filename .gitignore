@@ -1,3 +1,4 @@
 .env
 vendor
 web/wp
+auth.json
