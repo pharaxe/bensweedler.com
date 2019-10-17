@@ -43,10 +43,11 @@
     "wpackagist-plugin/jetpack": "^7.8.0",
     "wpackagist-plugin/public-post-preview": "^2.8.0",
     "wpackagist-plugin/redirection": "^4.4.2",
+    "wpackagist-plugin/safe-svg": "^1.9.4",
     "wpackagist-plugin/social-media-feather": "^1.9.4",
     "wpackagist-plugin/ssl-insecure-content-fixer": "^2.7.2",
     "deliciousbrains-plugin/wp-migrate-db-pro": "*",
-    "themenectar/salient": "11.0.1"
+    "themenectar/salient": "11.0.1",
     "pharaxe/salient-child": "*"
   },
   "require-dev": {
