@@ -1,0 +1,162 @@
+ize: 16px;
+font-family: HewittCooper, sans-serif !important;
+}
+@media (max-width: 900px) {
+   html { font-size: 15px; }
+}
+@media (max-width: 400px) {
+   html { font-size: 13px; }
+}
+
+/* Type will scale with document */
+/*
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.17rem; }
+h4 { font-size: 1.12rem; }
+h5 { font-size: .83rem; }
+h6 { font-size: .75rem; }
+p {  font-size: 1rem; }
+*/
+
+/***
+ *  * Portfolio Page
+ *   */
+
+/*****
+ *  * Remove the nectar "Like" 
+ *   */
+.portfolio-items .nectar-love-wrap {
+   display: none !important;
+}
+
+.portfolio-items .work-meta {
+   width: 100% !important;
+}
+
+/***
+ *  * Blog homepage
+ *   * /
+ *    * 
+ *
+ */** Custom row before cards **/
+ .rss-feed-call-to-action img {
+    height: 3rem;
+    display: inline-block;
+ }
+
+ body .meta-category {
+    font-weight: 500!important;
+    /* Remove cateogries from cards */
+    /* display: none !important;*/
+ }
+
+ /* Removing the cateogories means some extra margin is needed*/
+
+ .masonry.material .masonry-blog-item .article-content-wrap {
+    /* padding: 30px!important; */
+ }
+
+ /**
+  * Exceprt in card font too big by default
+  * */
+
+.excerpt {
+   font-size: 80%;
+   line-height: 1.7em;
+}
+
+ /****
+  *  * Singe post Blog Page
+  *   */
+
+.page-header-bg-image  {
+   filter: brightness(50%);
+}
+
+.inner-wrap { 
+   max-width: 1000px;
+   margin: 0 auto;
+}
+/**
+ *  * If there's no header image, keep it simple and aligned well.*/
+.row.heading-title.hentry {
+   max-width: 1000px;
+   border: none;
+   margin: 0 auto;
+}
+
+/** Remove social nectar like button */
+
+.nectar-love-button { 
+   display: none !important;
+}
+
+/** 
+ *  * Date is the only meta info I care about 
+ *   */
+/* readable paragraph widths */
+body .post-content p {
+   max-width: 75ch; /* TODO there's probably better way to get this affect */
+}
+
+body .meta-comment-count {
+   display: none !important;
+}
+
+.blog-title #single-below-header > span {
+   border: none;
+   padding-left: 0;
+}
+
+/**
+ * Default Salient style has this a more gray tone, which blends into my banner image.
+ */
+.single #page-header-bg #single-below-header span {
+   color: white!important;
+}
+
+
+/** Specific tricks **/
+
+/* Often I have an image that I want paired with some text.
+ * The text should flex-grow faster than the image.
+ * TODO better name for this class
+ */
+.image-and-text .wp-block-column:first-child {
+   flex-basis: auto;
+}
+
+/* 
+ * Salient puts padding around all ul, but this includes gallery blocks and it looks misaligned.
+ **/
+ul.wp-block-gallery {
+  margin-left: 0;
+}
+
+/* Captions are ridiculously small in this theme */
+.wp-block-image figcaption {
+   font-size: 16px;
+}
+
+
+/*
+ * Fix for inline code because Salient marks them all as display block.
+ */
+
+code {
+  display: inline;
+  padding: 1px 4px;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-size: 1em;
+}
+
+.wp-block-code code {
+   font-size: 16px;
+   padding: 0;
+}
+
+.wp-block-code {
+   margin-bottom: 2em!important;
+}

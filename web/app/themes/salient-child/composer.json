@@ -1,0 +1,9 @@
+{
+   "name": "pharaxe/salient-child",
+   "description": "Personalized edits to ThemeNectar's Salient theme",
+   "license": "MIT",
+   "type": "wordpress-theme",
+   "require": {
+      "composer/installers": "^1.7.0"
+   }
+}

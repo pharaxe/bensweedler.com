@@ -1,3 +1,12 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/themes/*
+
 # Dotenv
 .env
 .env.*
@@ -7,22 +16,13 @@
 auth.json
 
 # Composer
-vendor
-web/wp
-web/app/**
+/vendor
 
+# WordPress
+web/wp
 
 # Logs
 *.log
-
-# Application
-web/app/plugins/*
-!web/app/plugins/.gitkeep
-web/app/mu-plugins/*/
-web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/.gitkeep
-web/app/themes
 
 # Include child theme in repo
 !web/app/themes/salient-child

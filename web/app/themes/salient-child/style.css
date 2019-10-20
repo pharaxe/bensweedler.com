@@ -1,0 +1,83 @@
+/*
+Theme Name: Salient Child Theme
+Description: This is Ben's custom child theme for Salient
+Theme URI:   https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266
+Author: Ben Sweedler
+Author URI:  https://github.com/pharaxe
+Template: salient
+Version: 1.0
+*/
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   font-weight: 200;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Thin.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Thin.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Thin.ttf') format('truetype');  
+}
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   /** Hack in here to make font weight 300 regular */
+   font-weight: 300;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Regular.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Regular.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Regular.ttf') format('truetype');  
+}
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   font-weight: 350;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Book.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Book.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Book.ttf') format('truetype');  
+}
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   font-weight: 350;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Book.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Book.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Book.ttf') format('truetype');  
+}
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   font-weight: normal;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Medium.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Medium.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Medium.ttf') format('truetype');  
+}
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   font-weight: 500;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Semibold.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Semibold.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Semibold.ttf') format('truetype');  
+}
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   font-weight: bold;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Bold.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Bold.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Bold.ttf') format('truetype');  
+}
+
+@font-face {
+   font-family: CooperHewitt;  
+   font-style: normal;
+   font-weight: 800;
+   src: url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Heavy.woff') format('woff'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Heavy.eot') format('eot'),
+        url('/app/themes/salient-child/fonts/CooperHewitt/CooperHewitt-Heavy.ttf') format('truetype');  
+}
+
