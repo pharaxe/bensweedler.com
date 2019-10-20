@@ -7,6 +7,9 @@ web/app/uploads/*
 !web/app/uploads/.gitkeep
 web/app/themes/*
 
+# Include child theme in repo
+!web/app/themes/salient-child
+
 # Dotenv
 .env
 .env.*
@@ -24,5 +27,3 @@ web/wp
 # Logs
 *.log
 
-# Include child theme in repo
-!web/app/themes/salient-child
