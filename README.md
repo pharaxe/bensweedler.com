@@ -1,4 +1,4 @@
-# [Ben Sweelder's Personal Site]
+# Ben Sweelder's Personal Site
 
 Made with 
 * [Wordpress](https://wordpress.com)
@@ -20,21 +20,8 @@ My personal website,  where I blog and make my work publically available.
     $ composer install
     ```
 2. Update environment variables in the `.env` file:
-  * Database variables
-    * `DB_NAME` - Database name
-    * `DB_USER` - Database user
-    * `DB_PASSWORD` - Database password
-    * `DB_HOST` - Database host
-    * Optionally, you can define `DATABASE_URL` for using a DSN instead of using the variables above (e.g. `mysql://user:password@127.0.0.1:3306/db_name`)
-  * `WP_ENV` - Set to environment (`development`, `staging`, `production`)
-  * `WP_HOME` - Full URL to WordPress home (https://example.com)
-  * `WP_SITEURL` - Full URL to WordPress including subdirectory (https://example.com/wp)
-  * `AUTH_KEY`, `SECURE_AUTH_KEY`, `LOGGED_IN_KEY`, `NONCE_KEY`, `AUTH_SALT`, `SECURE_AUTH_SALT`, `LOGGED_IN_SALT`, `NONCE_SALT`
-    * Generate with [wp-cli-dotenv-command](https://github.com/aaemnnosttv/wp-cli-dotenv-command)
-    * Generate with [our WordPress salts generator](https://roots.io/salts.html)
-3. Set the document root on your webserver to Bedrock's `web` folder: `/path/to/site/web/`
-4. Request access to privately hosted Salient theme.
-5. Set auth.json to the product key from Delcious Brains' WP Migrate DB Pro
-6. Access WordPress admin at `https://example.com/wp/wp-admin/`
-7. Install the themes and plugins
-8. Use WP Migrate DB Pro to install the database from staging.bensweedler.com or dev.bensweedler.com
+3. Set the document root to Bedrock's `web` folder: `/path/to/site/web/`
+4. Set auth.json to the product key from Delcious Brains' WP Migrate DB Pro
+5. Access WordPress admin at `https://example.com/wp/wp-admin/`
+6. Install the themes and plugins
+7. Use WP Migrate DB Pro to install the database from staging.bensweedler.com or dev.bensweedler.com
