@@ -24,4 +24,8 @@ My personal website,  where I blog and make my work publically available.
 4. Set auth.json to the product key from Delcious Brains' WP Migrate DB Pro
 5. Access WordPress admin at `https://example.com/wp/wp-admin/`
 6. Install the themes and plugins
+7. Make www-pub is the group for web/app/uploads and it is writeable by the group
+    ```sh
+    $ chgrp g+w web/app/uploads
+    ```
 7. Use WP Migrate DB Pro to install the database from staging.bensweedler.com or dev.bensweedler.com
