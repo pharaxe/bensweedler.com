@@ -45,9 +45,9 @@ p {  font-size: 1rem; }
     display: inline-block;
  }
 
- body .meta-category {
-    font-weight: 500!important;
-    /* Remove cateogries from cards */
+ body .meta-category a {
+    font-weight: 350!important;
+    /* If you want to remove cateogries from cards */
     /* display: none !important;*/
  }
 
