@@ -26,6 +26,10 @@ function salient_child_enqueue_styles() {
    wp_register_style( 'salient-child-style', get_stylesheet_directory_uri() . '/style.css', '', $nectar_theme_version);
    wp_enqueue_style( 'salient-child-style');
 
+   // Academicons 
+   wp_register_style( 'academicons', get_stylesheet_directory_uri() . '/fonts/Academicons/css/academicons.min.css', '', '1.8.6');
+   wp_enqueue_style( 'academicons');
+
    if ( is_rtl() ) {
       wp_register_style(  'salient-rtl',  get_template_directory_uri(). '/rtl.css', array(), '1', 'screen');
       wp_enqueue_style('salient-rtl');
@@ -35,7 +39,8 @@ function salient_child_enqueue_styles() {
 function salient_redux_custom_fonts( $custom_fonts ) {
    return array(
       'Custom Fonts' => array(
-         'CooperHewitt' => "CooperHewitt"
+         'CooperHewitt' => "CooperHewitt",
+         'Academicons' => "Academicons"
       )
    );
 }
@@ -45,6 +50,8 @@ add_filter( "redux/salient_redux/field/typography/custom_fonts", "salient_redux_
 // Include everything in the child theme's templates folder.
 // This doesn't seem to be the WordPress standard method of adding content to a partent theme.
 // But, I have places where I need to edit peices of the parent theme without replacing entire files.
+// TODO actaully I don't seem to ever need to do this. I should delete this code.
+/*
 $phpFolderPath = get_stylesheet_directory().'/templates/';
 $fileNames = array();
 foreach (new DirectoryIterator($phpFolderPath) as $file) {
@@ -59,5 +66,6 @@ foreach ($fileNames as $name){
    require_once($name);
 }
 
+ */
 ?>
 
