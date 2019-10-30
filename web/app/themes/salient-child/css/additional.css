@@ -174,3 +174,7 @@ code {
 }
 
 
+/** On home page, the recent posts slider doesn't need categories. */
+.flickity-slider .strong {
+   display: none;
+}
