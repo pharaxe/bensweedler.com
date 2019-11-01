@@ -5,16 +5,15 @@
    html { font-size: 13px; }
 }
 
-/* Type will scale with document */
-/*
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.17rem; }
-h4 { font-size: 1.12rem; }
-h5 { font-size: .83rem; }
-h6 { font-size: .75rem; }
-p {  font-size: 1rem; }
-*/
+/* Salient is supposed to be setting my font weights 
+ * but they aren't getting ported correctly by wp-migrate db pro */
+h1 { font-weight: 700; }
+h2 { font-weight: 600; }
+h3 { font-weight: 500; }
+h4 { font-weight: 400; }
+h5 { font-weight: 350; }
+h6 { font-weight: 350; }
+
 
 /***
  *  * Portfolio Page
@@ -31,6 +30,9 @@ p {  font-size: 1rem; }
    width: 100% !important;
 }
 
+.portfolio-items .work-meta h4 {
+   font-weight: 700!important;
+}
 /***
  *  * Blog homepage
  *   * /
@@ -177,4 +179,12 @@ code {
 /** On home page, the recent posts slider doesn't need categories. */
 .flickity-slider .strong {
    display: none;
+}
+
+/* Also, people aren't realizing there is content to scroll down to. */
+/* Going to add a heading with some links and force it upwards a bit */
+@media (min-width: 900px) {
+   .check-out-the-rest {
+      margin-top: -2.5em!important;
+   }
 }
