@@ -1,0 +1,11 @@
+/* On my 2019 yearly roundup, I color coded my goals list into pass/fail. */
+.goals .fail {
+   color: #BD3737;
+   font-weight: bold;
+}
+
+.goals .pass {
+   color: #056608;
+   font-weight: bold;
+}
+
