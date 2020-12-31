@@ -187,3 +187,9 @@ code {
       margin-top: -2.5em!important;
    }
 }
+
+/* I would like my captions under images to be cnetered. */
+
+.wp-block-image > figcaption {
+   text-align: center;
+}

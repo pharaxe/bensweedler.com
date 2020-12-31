@@ -2,6 +2,10 @@
 
 add_action( 'wp_enqueue_scripts', 'salient_child_enqueue_styles', 100);
 
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
+
 function salient_child_enqueue_styles() {
 
    $nectar_theme_version = nectar_get_theme_version();
