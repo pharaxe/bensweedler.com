@@ -14,6 +14,23 @@ h4 { font-weight: 400; }
 h5 { font-weight: 350; }
 h6 { font-weight: 350; }
 
+/**
+ * My h2 and my h3 need more margin bottom
+ */
+h2, h3 {
+   margin-bottom: 1rem!important;
+}
+
+/**
+ * I want most of my gallerys to become 1 column on mobile.
+ */
+@media(max-width: 768px){
+  .columns-2 > .blocks-gallery-grid > .blocks-gallery-item {
+     width: 100%!important;
+     margin: 0 0 1em 0!important;
+  }
+}
+
 /***
  *  * Portfolio Page
  *   */
@@ -188,8 +205,20 @@ code {
    }
 }
 
-/* I would like my captions under images to be cnetered. */
+/* I would like my captions under images to be centered. */
 
 .wp-block-image > figcaption {
    text-align: center;
+}
+
+.wp-block-embed > figcaption {
+   text-align: center;
+   font-size: 16px;
+}
+
+.wp-block-gallery > figcaption {
+   text-align: center;
+   margin-top: .5em;
+   margin-bottom: 1em;
+   font-size: 16px;
 }
