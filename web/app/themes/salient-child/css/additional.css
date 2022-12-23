@@ -222,3 +222,18 @@ code {
    margin-bottom: 1em;
    font-size: 16px;
 }
+
+/* Great, images with captions inside them are getting their gray gradient pushed down*/
+
+figure.wp-block-image {
+   margin-bottom: 15px!important;
+}
+
+figure.wp-block-image img {
+  margin-bottom: 0!important;
+}
+
+/* Also the captions are too small*/
+figure.wp-block-image figcaption {
+   font-size: 16px!important;
+}
